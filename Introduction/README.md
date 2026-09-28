@@ -45,6 +45,8 @@ JavaScript data types are divided into two main categories:
 | **Null** | Intentional absence of any object value | `let emptyVal = null;` |
 | **Symbol** | Unique and immutable identifier | `Symbol('id')` |
 
+### Non-Primitive Data Types (Arrays & Objects)
+TypeSyntaxExampleAccess Values ByArray[ ] (Square brackets)['apple', 'banana']Index number: arr[0]Object{ } (Curly braces){ key: 'value' }Property name: obj.key
 ---
 
 ### Checking Data Types (`typeof`)
