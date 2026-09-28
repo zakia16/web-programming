@@ -13,6 +13,7 @@ JavaScript supports single-line and multi-line comments for documentation.
 // Printing single and multiple values
 console.log('Hello, World!');
 console.log('JavaScript', 2026, true);
+```
 
 ## 2. Basic Arithmetic Operations
 JavaScript can perform standard mathematical evaluations directly:
