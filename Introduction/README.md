@@ -76,7 +76,7 @@ currentAge = 26; // Reassignment allowed
 // Immutable constant
 const GRAVITY = 9.81;
 const PI = 3.14;
-
+```
 
 ---
 
