@@ -82,3 +82,9 @@ let firstName = 'Asabeneh',
     job = 'Teacher',
     isMarried = true;
 ```
+### Variable Naming Rules:
+Cannot start with a number.
+
+Cannot contain spaces or special characters (except $ and _).
+
+Follows camelCase naming convention (e.g., firstName, boilingPoint).
