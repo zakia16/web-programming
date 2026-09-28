@@ -127,5 +127,21 @@ Internal scripts are written inside <script> tags within the HTML file. While th
       console.log('Hello, World!');
     </script>
   </body>
+</html>
 ```
+
+### 3. External & Multiple External Scripts
+External scripts keep code modular and clean by linking standalone .js files using the src attribute.
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Multiple External Scripts</title>
+  </head>
+  <body>
+    <!-- Link external JS files before the closing body tag -->
+    <script src="./helloworld.js"></script>
+    <script src="./introduction.js"></script>
+  </body>
 </html>
