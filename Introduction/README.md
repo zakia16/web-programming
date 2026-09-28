@@ -82,9 +82,11 @@ let firstName = 'Asabeneh',
     job = 'Teacher',
     isMarried = true;
 ```
-### Variable Naming Rules:
-Cannot start with a number.
 
-Cannot contain spaces or special characters (except $ and _).
+### Variable Naming Rules & Conventions
+A valid JavaScript variable name must follow these rules:
 
-Follows camelCase naming convention (e.g., firstName, boilingPoint).
+1. **No Starting Numbers**: A variable name cannot begin with a digit (e.g., `1number` is invalid, but `number1` is valid).
+2. **Allowed Characters**: Letters, numbers, dollar signs (`$`), and underscores (`_`) are allowed. Other special characters (like `-`, `@`, `#`, `%`) are strictly prohibited.
+3. **No Spaces**: Variable names cannot contain spaces (e.g., `first Name` is invalid).
+4. **camelCase Convention**: Multi-word variable names standardly use camelCase (e.g., `firstName`, `isLoggedIn`, `totalItemCount`).
