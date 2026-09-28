@@ -46,7 +46,11 @@ JavaScript data types are divided into two main categories:
 | **Symbol** | Unique and immutable identifier | `Symbol('id')` |
 
 ### Non-Primitive Data Types (Arrays & Objects)
-TypeSyntaxExampleAccess Values ByArray[ ] (Square brackets)['apple', 'banana']Index number: arr[0]Object{ } (Curly braces){ key: 'value' }Property name: obj.key
+
+| Type | Syntax | Example | Access Values By |
+| :--- | :--- | :--- | :--- |
+| **Array** | `[ ]` (Square brackets) | `['apple', 'banana']` | Index number: `arr[0]` |
+| **Object** | `{ }` (Curly braces) | `{ key: 'value' }` | Property name: `obj.key` |
 ---
 
 ### Checking Data Types (`typeof`)
