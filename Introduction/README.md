@@ -62,10 +62,11 @@ console.log(typeof null);        // "object" (known JavaScript quirk)
 Variables store values in memory locations. Modern JavaScript uses let and const:
 
 let: Used when values are expected to change over time.
-
 const: Used for constants whose values will never change.
-
 (Note: Avoid var due to scope hoisting issues).
+
+<img width="955" height="470" alt="image" src="https://github.com/user-attachments/assets/30d4020e-08da-42e0-8c75-e0531e56c94d" />
+
 
 ```javascript
 // Mutable variable
