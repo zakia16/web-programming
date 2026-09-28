@@ -1,3 +1,10 @@
+comment
+*/
+
+// Printing single and multiple values
+console.log('Hello, World!');
+console.log('JavaScript', 2026, true);
+
 Basic Arithmetic Operations
 JavaScript can perform standard mathematical evaluations directly:
 
