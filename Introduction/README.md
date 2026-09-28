@@ -56,6 +56,7 @@ console.log(typeof 250);         // "number"
 console.log(typeof true);        // "boolean"
 console.log(typeof undefined);   // "undefined"
 console.log(typeof null);        // "object" (known JavaScript quirk)
+```
 
 # Declaring Variables (let vs const)
 Variables store values in memory locations. Modern JavaScript uses let and const:
@@ -66,6 +67,7 @@ const: Used for constants whose values will never change.
 
 (Note: Avoid var due to scope hoisting issues).
 
+```javascript
 // Mutable variable
 let currentAge = 25;
 currentAge = 26; // Reassignment allowed
@@ -78,3 +80,4 @@ const PI = 3.14;
 let firstName = 'Asabeneh',
     job = 'Teacher',
     isMarried = true;
+```
