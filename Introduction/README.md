@@ -78,6 +78,14 @@ const GRAVITY = 9.81;
 const PI = 3.14;
 ```
 
+### Variable Naming Rules & Conventions
+A valid JavaScript variable name must follow these rules:
+
+1. **No Starting Numbers**: A variable name cannot begin with a digit (e.g., `1number` is invalid, but `number1` is valid).
+2. **Allowed Characters**: Letters, numbers, dollar signs (`$`), and underscores (`_`) are allowed. Other special characters (like `-`, `@`, `#`, `%`) are strictly prohibited.
+3. **No Spaces**: Variable names cannot contain spaces (e.g., `first Name` is invalid).
+4. **camelCase Convention**: Multi-word variable names standardly use camelCase (e.g., `firstName`, `isLoggedIn`, `totalItemCount`).
+
 ---
 
 ## 3. Adding JavaScript to a Web Page
@@ -103,10 +111,3 @@ let firstName = 'Asabeneh',
     isMarried = true;
 ```
 
-### Variable Naming Rules & Conventions
-A valid JavaScript variable name must follow these rules:
-
-1. **No Starting Numbers**: A variable name cannot begin with a digit (e.g., `1number` is invalid, but `number1` is valid).
-2. **Allowed Characters**: Letters, numbers, dollar signs (`$`), and underscores (`_`) are allowed. Other special characters (like `-`, `@`, `#`, `%`) are strictly prohibited.
-3. **No Spaces**: Variable names cannot contain spaces (e.g., `first Name` is invalid).
-4. **camelCase Convention**: Multi-word variable names standardly use camelCase (e.g., `firstName`, `isLoggedIn`, `totalItemCount`).
