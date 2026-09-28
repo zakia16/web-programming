@@ -77,6 +77,26 @@ currentAge = 26; // Reassignment allowed
 const GRAVITY = 9.81;
 const PI = 3.14;
 
+
+---
+
+## 3. Adding JavaScript to a Web Page
+
+JavaScript can be added to an HTML document in three different ways:
+
+### 1. Inline Script
+Inline scripts are written directly inside HTML attributes (such as `onclick`).
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Inline Script</title>
+  </head>
+  <body>
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+  </body>
+</html>
 // Declaring multiple variables
 let firstName = 'Asabeneh',
     job = 'Teacher',
