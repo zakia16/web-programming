@@ -58,7 +58,7 @@ console.log(typeof undefined);   // "undefined"
 console.log(typeof null);        // "object" (known JavaScript quirk)
 ```
 
-# Declaring Variables (let vs const)
+### Declaring Variables (let vs const)
 Variables store values in memory locations. Modern JavaScript uses let and const:
 
 let: Used when values are expected to change over time.
