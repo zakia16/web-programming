@@ -29,7 +29,9 @@ console.log(5 ** 2); // Exponentiation (25)
 
 ## 3. Data Types & Variables
 
-JavaScript data types are divided into two main categories: **Primitive Data Types** (immutable) and **Non-Primitive Data Types** (mutable).
+JavaScript data types are divided into two main categories: 
+**Primitive Data Types** (immutable) and 
+**Non-Primitive Data Types** (mutable).
 
 ### Primitive Data Types
 
@@ -49,7 +51,7 @@ JavaScript data types are divided into two main categories: **Primitive Data Typ
 Use the `typeof` operator to verify the data type of any variable or expression:
 
 ```javascript
-console.log(typeof 'Asabeneh'); // "string"
+console.log(typeof 'hello');      // "string"
 console.log(typeof 250);         // "number"
 console.log(typeof true);        // "boolean"
 console.log(typeof undefined);   // "undefined"
