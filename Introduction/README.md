@@ -111,4 +111,21 @@ let firstName = 'Asabeneh',
     job = 'Teacher',
     isMarried = true;
 ```
+### 2. Internal Script
+Internal scripts are written inside <script> tags within the HTML file. While they can be placed in <head>, placing them before the closing </body> tag is preferred for faster page loading.
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Internal Script</title>
+  </head>
+  <body>
+    <button onclick="alert('Hello, World!')">Click Me</button>
+
+    <script>
+      console.log('Hello, World!');
+    </script>
+  </body>
+```
+</html>
