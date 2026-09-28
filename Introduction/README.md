@@ -14,6 +14,7 @@ JavaScript supports single-line and multi-line comments for documentation.
 console.log('Hello, World!');
 console.log('JavaScript', 2026, true);
 ```
+---
 
 ## 2. Basic Arithmetic Operations
 JavaScript can perform standard mathematical evaluations directly:
@@ -26,7 +27,7 @@ console.log(5 / 2);  // Division (2.5)
 console.log(5 % 2);  // Modulus / Remainder (1)
 console.log(5 ** 2); // Exponentiation (25)
 ```
-
+---
 ## 3. Data Types & Variables
 
 JavaScript data types are divided into two main categories: 
@@ -88,7 +89,7 @@ A valid JavaScript variable name must follow these rules:
 
 ---
 
-## 3. Adding JavaScript to a Web Page
+## 4. Adding JavaScript to a Web Page
 
 JavaScript can be added to an HTML document in three different ways:
 
@@ -102,7 +103,7 @@ Inline scripts are written directly inside HTML attributes (such as `onclick`).
     <title>Inline Script</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+    <button onclick="alert('Hello, World!')">Click Me</button>
   </body>
 </html>
 // Declaring multiple variables
