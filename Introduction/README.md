@@ -133,7 +133,7 @@ Internal scripts are written inside <script> tags within the HTML file. While th
 ### 3. External & Multiple External Scripts
 External scripts keep code modular and clean by linking standalone .js files using the src attribute.
 
-HTML
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -145,3 +145,4 @@ HTML
     <script src="./introduction.js"></script>
   </body>
 </html>
+```
