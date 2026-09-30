@@ -72,3 +72,15 @@ while (count < 3) {
 }
 ```
 
+## C. do...while Loop
+Guarantees the code block runs at least once before evaluating the condition.
+```javascript
+let number = 5;
+
+do {
+  console.log(`Number is: ${number}`); // Runs once even if condition is false
+  number++;
+} while (number < 3);
+```
+```
+
