@@ -52,7 +52,7 @@ Parameters: Variable names listed in the function definition.
 
 Arguments: Real values passed to the function when it is invoked.
 
-A. Default Parameters
+### A. Default Parameters
 Provide fallback values if no argument is passed during execution.
 
 ```JavaScript
