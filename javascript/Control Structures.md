@@ -82,5 +82,18 @@ do {
   number++;
 } while (number < 3);
 ```
+
+## Loop Control Statements
+break: Immediately terminates the entire loop.
+
+continue: Skips the current iteration and jumps directly to the next one.
+
+```JavaScript
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) continue; // Skip printing 3
+  if (i === 5) break;    // Stop loop before 5
+  console.log(i);        // Output: 1, 2, 4
+}
+```
 ```
 
